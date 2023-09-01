@@ -1,2 +1,5 @@
-package gl.sidi.ebankingbackend.enums;public enum OperationType {
+package gl.sidi.ebankingbackend.enums;
+
+public enum OperationType {
+    DEBIT,CREDIT
 }
