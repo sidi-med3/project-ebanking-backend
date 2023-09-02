@@ -1,2 +1,7 @@
-package gl.sidi.ebankingbackend.exceptions;public class BalanceNotSufficientException {
+package gl.sidi.ebankingbackend.exceptions;
+
+public class BalanceNotSufficientException extends Exception {
+    public BalanceNotSufficientException(String message) {
+        super(message);
+    }
 }
